@@ -4,6 +4,8 @@ public class BankAccountDepositTester {
 	System.out.println(ba.getBalance());
 	ba.deposit(100.25);
 	System.out.println(ba.getBalance());
+        ba.withdraw(50);
+	System.out.println(ba.getBalance());
    }
 
 }
