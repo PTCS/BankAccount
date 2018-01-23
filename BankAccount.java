@@ -8,4 +8,7 @@ public class BankAccount {
     public double getBalance() {
         return balance;
     }
+    public void withdraw(int num) {
+	this.balance-=num;
+    }
 }
