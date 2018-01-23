@@ -11,4 +11,7 @@ public class BankAccount {
     public void withdraw(int num) {
 	this.balance-=num;
     }
+    public void deposit(double val){
+	balance += val;
+    }
 }
